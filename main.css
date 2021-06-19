@@ -18,11 +18,9 @@ body{
     background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
     position: relative;
     min-height: 100vh;
-    /* background-repeat: no-repeat;
-    background-size: cover; */
 }
 .container{
-    margin: 9rem 2rem 2rem 2rem;
+    margin: 9rem 2rem 0 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +46,7 @@ body{
 .faq-container{
     background: white;
     border-radius: 23px;
-    padding: 9rem 2rem;
+    padding: 9rem 2rem 2rem 2rem;
 }
 .faq-container h1{
     font-size: 25px;
@@ -58,8 +56,11 @@ body{
     padding-bottom: 2rem;
 }
 .faq h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: rgb(136, 136, 136);
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 1px;
     margin-bottom: 1rem;
 }
@@ -68,9 +69,21 @@ body{
     color: grey;
     margin: 1rem 0 2rem 0;
 }
- 
+
 .hrLine{
     height: 1px;
     background: rgb(224, 224, 224);
     margin-bottom: 2rem;
+}
+.itemImg{
+    width: 10px;
+    height: 8px;
+}
+
+p{
+    display: none;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
 }
