@@ -8,3 +8,69 @@
   --dividers: hsl(240, 5%, 91%);
   --fontSize: 12px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    position: relative;
+    min-height: 100vh;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.container{
+    margin: 9rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .mainImage{
+    position: absolute;
+    top: -5rem;
+    left: 5rem;
+}
+.image .shadowImage{
+    position: absolute;
+    top: -1.2rem;
+    left: 5rem;
+}
+.image .mainImage{
+    width: 190px;
+    height: 140px;
+}
+.image .shadowImage{
+    width: 210px;
+    height: 100px;
+}
+.faq-container{
+    background: white;
+    border-radius: 23px;
+    padding: 9rem 2rem;
+}
+.faq-container h1{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.faq h3{
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.faq p{
+    font-size: 12px;
+    color: grey;
+    margin: 1rem 0 2rem 0;
+}
+ 
+.hrLine{
+    height: 1px;
+    background: rgb(224, 224, 224);
+    margin-bottom: 2rem;
+}
