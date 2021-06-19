@@ -1,0 +1,10 @@
+::root{
+  --darkBlueText: hsl(238, 29%, 16%);
+  --softRedText: hsl(14, 88%, 65%);
+
+  --gradientSoftViolet: hsl(273, 75%, 66%);
+  --gradientSoftBlue: hsl(240, 73%, 65%);
+
+  --dividers: hsl(240, 5%, 91%);
+  --fontSize: 12px;
+}
