@@ -83,6 +83,9 @@ body{
 p{
     display: none;
 }
+.block.active p{
+    display: block;
+}
 .item{
     display: flex;
     justify-content: space-between;
